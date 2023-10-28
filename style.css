@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-image: url(./az.jpg);
+}
+
+.container {
+    width: 70%;
+    height: 500px;
+    background-color: antiquewhite;
+    opacity: 0.8;
+    border: 2px solid black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-size: 25px;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: rgb(210, 182, 129);
+
+}
+
+button:hover {
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: rgb(250, 166, 10);
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    box-shadow: 10px 5px 3px;
+
+}
+
+.AA {
+    font-size: 30px;
+}
+
+select {
+    height: 30px;
+    width: auto;
+    color: red;
+
+}
+
+p {
+    font-size: 30px;
+}
+
+.icon {
+
+    font-size: 40px;
+    width: 50px;
+    cursor: pointer;
+    text-align: center;
+    rotate: 90deg;
+    color: blue;
+    border: 4px groove blue;
+    margin-left: 40%;
+}
+
+.icon :hover {
+    background-color: burlywood;
+}
