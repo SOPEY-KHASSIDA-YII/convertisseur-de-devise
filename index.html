@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Convertisseur de devises</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Convertisseur de devises</h1>
+        <div>
+            <label id="">Montant:</label>
+            <input type="number"  id="amount" value="amount" min="0" step="0.01">
+        </div>
+
+        <div class="AA">
+            <label for="fromCurrency">De:</label>
+            <select id="fromCurrency">
+                <option value="USD">Dollar américain</option>
+                <option value="EUR">Euro</option>
+                <option value="JPY">Japon</option>
+                <option value="GBP">Royaume-Uni</option>
+                <option value="AUD">Australie</option>
+                <option value="AUD">Dollar Australien</option>
+                <option value="XOF">Franc CFA</option>
+                <option value="AED">Dirham des Émirats arabes unis</option>
+                <option value="AMD">Dram</option>
+                <option value="ANG">Florin des Antilles néerlandaises</option>
+                <option value="CAD">Dollar canadien</option>
+                <option value="YER">Rial yéménite</option>
+                <option value="QAR">Riyal du Qatar</option>
+                <option value="MGA">Ariary</option>
+                <option value="BRL">Réal brésilien</option>
+                <option value="CUP">Peso cubain</option>
+                <option value="DH">Dirham marocain</option>
+                <option value="DZD">Dinar algérien</option>
+                <option value="TRY">Livre turque</option>
+                <option value="CNY">YUAN</option>
+                <option value="KPW">Won nord-coréen</option>
+                <option value="KRW">Won sud-coréen</option>
+                <option value="MRU">Ouguiya</option>
+                <option value="NGN">Naira</option>
+                <option value="TND">Dinar tunisien</option>
+                <option value="ZAR">Rand</option>
+                <option value="EGP">Livre égyptienne</option>
+                <option value="CVE">Escudo cap-verdien</option>
+                <option value="ARS">Peso argentin</option>
+                <option value="MXN">Peso mexicain</option>
+                <option value="CLP">Peso chilien</option>
+            </select>
+        </div>
+        <div class="icon"><i class="fas fa-exchange-alt" ></i></div>
+        <div class="AA">
+            <label for="toCurrency">vers:</label>
+            <select id="toCurrency">
+                <option value="XOF">Franc CFA</option>
+                <option value="EUR">Euro</option>
+                <option value="USD">Dollar américain</option>
+                <option value="JPY">Japon</option>
+                <option value="GBP">Royaume-Uni</option>
+                <option value="AUD">Australie</option>
+                <option value="AUD">Dollar Australien</option>
+                <option value="AED">Dirham des Émirats arabes unis</option>
+                <option value="AMD">Dram</option>
+                <option value="ANG">Florin des Antilles néerlandaises</option>
+                <option value="CAD">Dollar canadien</option>
+                <option value="YER">Rial yéménite</option>
+                <option value="QAR">Riyal du Qatar</option>
+                <option value="MGA">Ariary</option>
+                <option value="BRL">Réal brésilien</option>
+                <option value="CUP">Peso cubain</option>
+                <option value="DH">Dirham marocain</option>
+                <option value="DZD">Dinar algérien</option>
+                <option value="TRY">Livre turque</option>
+                <option value="CNY">YUAN</option>
+                <option value="KPW">Won nord-coréen</option>
+                <option value="KRW">Won sud-coréen</option>
+                <option value="MRU">Ouguiya</option>
+                <option value="NGN">Naira</option>
+                <option value="TND">Dinar tunisien</option>
+                <option value="ZAR">Rand</option>
+                <option value="EGP">Livre égyptienne</option>
+                <option value="CVE">Escudo cap-verdien</option>
+                <option value="ARS">Peso argentin</option>
+                <option value="MXN">Peso mexicain</option>
+                <option value="CLP">Peso chilien</option>
+            </select>
+        </div>
+
+        <div>
+            <button id="convert">Convertir</button>
+        </div>
+        <div>
+            <p>Résultat: <span id="result"></span></p>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
