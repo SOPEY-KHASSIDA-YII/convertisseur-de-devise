@@ -19,7 +19,7 @@ function convertion() {
 
 
     let url = `http://data.fixer.io/api/latest?access_key=a3817cbd4a223733621d573a21324eea`;
-    // let url = `https://v6.exchangerate-api.com/v6/d646ebeb3b6925d372ec53f3/latest/USD`;
+    // let url = `https://v6.exchangerate-api.com/v6/2242b5b2b203761e316d52a8/latest/USD`;
     fetch(url)
         .then(response => response.json())
         .then(data => {
